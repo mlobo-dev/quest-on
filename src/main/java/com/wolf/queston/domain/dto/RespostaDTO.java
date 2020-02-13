@@ -9,7 +9,7 @@ import javax.persistence.*;
 @NoArgsConstructor
 @AllArgsConstructor
 @EqualsAndHashCode
-public class Resposta {
+public class RespostaDTO {
 
     private Long id;
     private String descricao;

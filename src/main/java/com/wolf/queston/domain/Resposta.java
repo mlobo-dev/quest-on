@@ -14,7 +14,7 @@ import javax.persistence.*;
 public class Resposta {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "cod_resposta")
     private Long id;
 
