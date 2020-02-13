@@ -1,7 +1,8 @@
-package br.com.sebrae.controller.v1.exception;
+package com.wolf.queston.controller.exception;
 
-import br.com.sebrae.service.exception.DataIntegrityException;
-import br.com.sebrae.service.exception.ObjectNotFoundException;
+
+import com.wolf.queston.service.exception.DataIntegrityException;
+import com.wolf.queston.service.exception.ObjectNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.FieldError;
@@ -40,5 +41,4 @@ public class ResourceExceptionHandler {
 		}
 		return ResponseEntity.status(HttpStatus.UNPROCESSABLE_ENTITY).body(err);
 	}
-
 }

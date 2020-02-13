@@ -1,4 +1,4 @@
-package br.com.sebrae.controller.v1.exception;
+package com.wolf.queston.controller.exception;
 
 import java.io.Serializable;
 
